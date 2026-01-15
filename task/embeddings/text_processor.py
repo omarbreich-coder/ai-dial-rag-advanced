@@ -44,7 +44,7 @@ class TextProcessor:
     #   - save (insert) embeddings and chunks to DB...
     #       hint 1: embeddings should be saved as string list
     #       hint 2: embeddings string list should be casted to vector ({embeddings}::vector)
-    def _process_text_file(
+    def process_text_file(
         self,
         file_name: str,
         chunk_size: int,
